@@ -14,7 +14,7 @@ The audios were recorded on a farm with a controlled environment, using professi
 Database with scarce data, Data Augmentation was applied to the audios in order to increase the robustness of the audios and the accuracy of the Machine Learning model to search for patterns.
 
 ## 💾 Database:
-The [audio](dados.audio.com) database contains animal vocalizations, organized into vocalizations from July and November, following a naming convention:
+The [audio](https://github.com/geangobo/calf_sounds_data_analysis/tree/main/Database/sound_database) database contains animal vocalizations, organized into vocalizations from July and November, following a naming convention:
 
 "***animalID_breastfeeding_DayMonthYear_***"
 
@@ -27,7 +27,7 @@ dm --> Post-suckling
 #### ex:
 - *01_dm_manha_100722.wav* --> Animal 01 Post-weaning on July 10, 2022
 
-Furthermore, the database contains the [dataframes](dataframe.com) with the 11 features extracted from the audios, separated by each animal group, date, and condition (pm or dm). 
+Furthermore, the database contains the [dataframes](https://github.com/geangobo/calf_sounds_data_analysis/tree/main/Database/Features) with the 11 features extracted from the audios, separated by each animal group, date, and condition (pm or dm). 
 ### Data augmentation
 Data augmentation techniques were applied, and the **features were extracted considering the augmented sound data**, which are labeled with "aumentado" (meaning "augmented" in PT-BR) at the end of the folder name. The Data Augmentation techniques were adapted to work with sound and have the same effect as when applied to images. Therefore, for the sounds, we applied the following techniques: 
   
@@ -46,7 +46,7 @@ Data augmentation techniques were applied, and the **features were extracted con
 - Seaborn
 - Matplotlib
   
-🔧[Access requirements.txt for installation](link.aqui_da_parte_de_requisitos.com)
+🔧[Access requirements.txt for installation](https://github.com/geangobo/calf_sounds_data_analysis/blob/main/Features_and_Data_augmentation/requirements.txt)
 ## 📊 Extracted features for evaluation:
 - Mean FFTs (Fast Fourier Transform) 
 - Max FFT’s (Fast Fourier Transform)

@@ -12,7 +12,7 @@ Os áudios foram gravados em uma fazenda com ambiente controlado, utilizando equ
 Database com dados excassos, foi aplicado Data Augmentation nos áudios com a finalizade de aumentar a roustez dos áudios e a precisão do modelo de Machine Learning para buscar padrões.
 
 ## 💾 Banco de dados:
-O banco de dados de [áudio]([dados.audio.com](https://github.com/geangobo/calf_sounds_data_analysis/tree/main/Database/sound_database)) contém as vocalizações dos animais, sendo organizado em vocalizações de julho e novembro, seguindo a seguinte regra de nomenclatura:
+O banco de dados de [áudio](https://github.com/geangobo/calf_sounds_data_analysis/tree/main/Database/sound_database) contém as vocalizações dos animais, sendo organizado em vocalizações de julho e novembro, seguindo a seguinte regra de nomenclatura:
 
 ***Numero do animal_mamada_DiaMesAno***
 
@@ -25,7 +25,7 @@ dm --> Pós-mamada
 #### ex:
 - *01_pm_manha_100722.wav* --> Animal 01 Pós-mamada dia 10 de julho de 2022.
 
-Além disso, o banco de dados contém os [dataframes](banco.com) com as 11 features extraídas dos áudios, sendo separada por cada grupo de animal, data e estado (pm ou dm). 
+Além disso, o banco de dados contém os [dataframes](https://github.com/geangobo/calf_sounds_data_analysis/tree/main/Database/Features) com as 11 features extraídas dos áudios, sendo separada por cada grupo de animal, data e estado (pm ou dm). 
 
 ### Data augmentation
 Foi aplicado técnicas de aumento de dados, as **features foram extraídas considerando os dados de sons com aumento** que estão com nome "aumentado" no final do nome da pasta. As técnicas de Data Augmentation foram adaptadas para trabalhar com som e ter o mesmo efeito que quando usado em imagens, desse modo, no sons aplicamos:
@@ -45,7 +45,8 @@ Foi aplicado técnicas de aumento de dados, as **features foram extraídas consi
 - Seaborn
 - Matplotlib
 
-🔧[Acesse requirements.txt para instalação](link.aqui_da_parte_de_requisitos.com)
+🔧[Acesse requirements.txt para instalação](https://github.com/geangobo/calf_sounds_data_analysis/blob/main/Features_and_Data_augmentation/requirements.txt)
+
 ## 📊 Features extraídas para avaliação:
 - Média FFT’s (Transformada rápida de Fourier) 
 - Máxima FFT’s (Transformada rápida de Fourier)
