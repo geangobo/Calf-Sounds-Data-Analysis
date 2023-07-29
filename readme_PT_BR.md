@@ -62,4 +62,8 @@ Foi aplicado técnicas de aumento de dados, as **features foram extraídas consi
 - [K-Nearest Neighbors (KNN)](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier) 
 - [Support vector machine (SVM)](https://scikit-learn.org/stable/modules/svm.html#svm-classification)
 
+ ## 🤝 Contribuídores: 
+ - PhD. Maíra Martins da Silva (EESC-USP)
+ - PhD. Iran José Oliveira da Silva
+ - M.Sc Karen Airosa Machado de Azevedo
 
